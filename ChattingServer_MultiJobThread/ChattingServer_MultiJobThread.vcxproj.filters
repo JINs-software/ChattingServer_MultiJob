@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="ChattingServer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ChattingServer.h" />
+    <ClInclude Include="Protocol.h">
+      <Filter>protocol</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="protocol">
+      <UniqueIdentifier>{7c3624c1-64d5-4cc7-8dd3-c7873ea6b13e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

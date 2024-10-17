@@ -2,12 +2,14 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="ChattingServer.cpp" />
+    <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ChattingServer.h" />
     <ClInclude Include="Protocol.h">
       <Filter>protocol</Filter>
     </ClInclude>
+    <ClInclude Include="Configuration.h" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="protocol">

@@ -13,3 +13,6 @@
 [submodule "Library/Redis"]
 	path = Library/Redis
 	url = https://github.com/JINs-software/Redis.git
+[submodule "Library/JNetLibrary"]
+	path = Library/JNetLibrary
+	url = https://github.com/JINs-software/JNetLibrary.git
